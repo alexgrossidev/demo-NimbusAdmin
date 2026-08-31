@@ -1,0 +1,67 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "target": "ES2022",
+    "useDefineForClassFields": true,
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "module": "ESNext",
+    "types": [
+      "vite/client"
+    ],
+    "skipLibCheck": true,
+    /* Path aliases */
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "@components/*": [
+        "src/0.Components/*"
+      ],
+      "@api/*": [
+        "src/1.API/*"
+      ],
+      "@context/*": [
+        "src/2.Context/*"
+      ],
+      "@theme/*": [
+        "src/3.Theme/*"
+      ],
+      "@atoms/*": [
+        "src/3.Theme/0.Atoms/*"
+      ],
+      "@molecules/*": [
+        "src/3.Theme/1.Molecules/*"
+      ],
+      "@routing/*": [
+        "src/4.Routing/*"
+      ],
+      "@assets/*": [
+        "src/assets/*"
+      ]
+    },
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "forceConsistentCasingInFileNames": true,
+    "noUncheckedSideEffectImports": true
+  },
+  "include": [
+    "src"
+  ]
+}

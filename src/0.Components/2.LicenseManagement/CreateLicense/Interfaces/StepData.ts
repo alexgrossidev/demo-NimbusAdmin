@@ -1,0 +1,77 @@
+export const StepData = {
+    steps: {
+        "1": {
+            label: "Step 1",
+            description: "First step",
+            title: "",
+            subtitle: "",
+            trialTitle: "Benvenuto alla creazione della licenza di prova",
+            trialSubtitle: "Segui i passaggi per creare una licenza di prova per il cliente.",
+        },
+        "2": {
+            label: "Step 2",
+            description: "Second step",
+            title: "Per iniziare, fornisci l'indirizzo email del cliente.",
+            subtitle: "L'email verrà utilizzata per inviare i dettagli della licenza una volta creata.",
+            trialTitle: "",
+            trialSubtitle: "",
+        },
+        "3": {
+            label: "Step 3",
+            description: "Third step",
+            title: "Inserisci i dati di accesso del cliente.",
+            subtitle: "Questo aiuterà a personalizzare la licenza per il cliente.",
+            trialTitle: "Inserisci i dati di accesso per la licenza di prova.",
+            trialSubtitle: "Questi dati saranno utilizzati durante il periodo di prova.",
+        },
+        "4": {
+            label: "Step 4",
+            description: "Fourth step",
+            title: "Questa e una licenza di prova o il cliente sta gia pagando?",
+            subtitle: "Scegli se il cliente avrà una licenza di prova o una licenza a pagamento.",
+            trialTitle: "Questa e una licenza di prova o il cliente sta gia pagando?",
+            trialSubtitle: "Conferma che il cliente sta iniziando con una licenza di prova.",
+        },
+        "5": {
+            label: "Step 5",
+            description: "Fifth step",
+            title: "Configura i dettagli della licenza.",
+            subtitle: "Imposta le date di inizio della licenza.",
+            trialTitle: "Configura i dettagli della licenza di prova.",
+            trialSubtitle: "Imposta l'inizio della prova per il cliente e la durata della prova.",
+        },
+        "6": {
+            label: "Step 6",
+            description: "Sixth step",
+            title: "Hai selezionato una licenza a pagamento",
+            subtitle: "Non è necessario impostare ulteriori dettagli per la licenza a pagamento in questo step.",
+            trialTitle: "Vuoi creare una licenza post-prova?",
+            trialSubtitle: "Configura i dettagli della licenza a pagamento che seguirà la prova.",
+        },
+        "7": {
+            label: "Step 7",
+            description: "Seventh step",
+            title: "Scadenza della licenza a pagamento",
+            subtitle: "Imposta la data di scadenza per la licenza a pagamento del cliente.",
+            trialTitle: "Scadenza della licenza a pagamento",
+            trialSubtitle: "Imposta la data di scadenza per la licenza a pagamento del cliente.",
+        },
+        "8": {
+            label: "Step 8",
+            description: "Eighth step",
+            title: "Configurazione Consegna",
+            subtitle: "Scegli come inviare la licenza al cliente.",
+            trialTitle: "Configurazione Consegna",
+            trialSubtitle: "Scegli come inviare la licenza di prova al cliente.",
+        },
+        "9": {
+            label: "Step 9",
+            description: "Ninth step",
+            title: "Riepilogo Licenza",
+            subtitle: "Controlla che tutti i dati siano corretti prima di confermare.",
+            trialTitle: "Riepilogo Licenza di Prova",
+            trialSubtitle: "Revisiona i dettagli della prova gratuita prima di inviarla.",
+        },
+    }
+};
+
